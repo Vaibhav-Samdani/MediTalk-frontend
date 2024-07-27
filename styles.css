@@ -217,7 +217,7 @@
     background: blueviolet;
     width: 30%;
     height: 60%;
-    background-image: url('img/bot.jpg');
+    background-image: url('images/bot.jpg');
     background-position: top;
     background-size: auto 85%;
     border-radius: 10px;
@@ -231,7 +231,7 @@
     background: skyblue;
     width: 30%;
     height: 60%;
-    background-image: url('img/special.jpg');
+    background-image: url('images/special.jpg');
     background-position: top;
     background-size: auto 95%;
     border-radius: 10px;
