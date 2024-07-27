@@ -17,6 +17,7 @@
 :root {
     --header-blue:#095D7E;
     --footer-dark-blue:#002737;
+    --text-color : #313131;
 
 }
 
@@ -165,4 +166,132 @@
     align-items: center;
     justify-content: center;
     gap: 25px;
+}
+
+
+
+
+
+/* ----------------------------------------Second-Section-starts---------------------------------------------- */
+
+
+
+
+
+.talk-us {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F1F9FF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+  height: 10%;
+  width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.heading > h1{
+    font-size: 35px;
+    font-family: "Poppins",sans-serif;
+}
+
+
+.cards {
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1202px;
+}
+
+.chat-bot-container {
+    background: blueviolet;
+    width: 30%;
+    height: 60%;
+    background-image: url('img/bot.jpg');
+    background-position: top;
+    background-size: auto 85%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.specialist-container {
+    background: skyblue;
+    width: 30%;
+    height: 60%;
+    background-image: url('img/special.jpg');
+    background-position: top;
+    background-size: auto 95%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+.box{
+    height: 45%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bot-box{
+    background-color: #D9D9D9;
+}
+
+.specialist-box{
+    background-color: #98D5E2;
+}
+
+.button{
+    outline: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 90%;
+    color: var(--text-color);
+}
+
+
+
+.bot-button-color{
+    background-color: rgba(130, 73, 73, 0.15);
+    color: #824949;
+    
+}
+
+
+.spec-button-color{
+    color: #095D7E;
+    background-color: rgba(9, 93, 126, 0.15);
 }
