@@ -48,11 +48,40 @@ gsap.from(".both-container", {
   },
 });
 
-let heading = document.getElementById("heading");
 
-heading.addEventListener("mousemove", (e) => {
-  console.log(e);
+gsap.from(".talk-us", {
+  opacity: 0,
+  y: "50",
+  delay: 2,
+
+  scrollTrigger: {
+    trigger: ".talk-us",
+    scroller: "body",
+    // start: "top 0%",
+    end: "top 10%",
+    scrub: 2,
+    // markers:true,
+    pin: false,
+  },
 });
+
+gsap.from(".contact", {
+  opacity: 0,
+  y: "50",
+  delay: 2,
+
+  scrollTrigger: {
+    trigger: ".contact",
+    scroller: "body",
+    // start: "top 0%",
+    end: "top 10%",
+    scrub: 2,
+    // markers:true,
+    pin: false,
+  },
+});
+
+
 
 // let cursorDot = document.querySelector('[data-cursor-dot]');
 let cursorOutline = document.querySelector("[data-cursor-outline]");
