@@ -5,7 +5,46 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
+    /* cursor: none; */
 }
+
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* .cursor-dot{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(105, 105, 105);
+    mix-blend-mode: hue;
+    z-index: 11;
+
+} */
+
+
+.cursor-outline{
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid rgba(255, 255, 255, 0.742); */
+    background: rgba(236, 236, 236, 0.52);
+    z-index: 10;
+    /* box-shadow: 0 0 100px rgb(0, 0, 0); */
+    filter: blur(2px);
+}
+
+.cursor-dot,
+.cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    /* z-index: 10; */
+    pointer-events: none;
+    
+}
+
 
 .container {
     height: 100vh;
